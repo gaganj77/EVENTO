@@ -1,0 +1,14 @@
+.env
+.env.*
+.git/
+.github/
+.vercel/
+_qa/
+database/
+server_log.txt
+_tree.txt
+TODO.md
+uploads/events/
+uploads/gallery/
+uploads/users/*
+!uploads/users/default-user.svg

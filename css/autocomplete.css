@@ -1,0 +1,19 @@
+/* =====================================================
+   EVENTO - City Autocomplete Styles
+   ===================================================== */
+.city-suggestion {
+    transition: background-color 0.2s ease;
+}
+.city-suggestion:hover {
+    background-color: var(--primary-soft, rgba(108, 60, 225, 0.1));
+    color: var(--primary, #6C3CE1);
+}
+.city-suggestion i {
+    width: 20px;
+    text-align: center;
+}
+
+#citySuggestions {
+    border: 1px solid var(--border-color, rgba(0,0,0,0.1));
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}

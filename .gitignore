@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+includes/config.local.php
+.vercel/
+_qa/
+server_log.txt
+_tree.txt
+TODO.md
+uploads/events/*
+uploads/gallery/*
+uploads/users/*
+!uploads/users/default-user.svg
+database/*
+!database/schema.sql
+!database/create_admin.php
